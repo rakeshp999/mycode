@@ -11,5 +11,6 @@ func main(){
 	var  fname, state  = "Rakesh" , "NJ"
 
 	 fmt.Println(printinfo(fname,state))
+	 fmt.Printf("The type of of name and st is  %T, %T \n", fname, state)
 
 }
