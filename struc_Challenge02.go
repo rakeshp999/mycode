@@ -1,5 +1,11 @@
 /* RZFeeser | Alta3 Research
-   CHALLEGE 01 - Create a struct named Astro */
+   CHALLEGE 01 - Create a struct named Astro
+
+   Take the previous challenge, and place your three (3) astro structures
+   inside of a slice named p. Display the slice when you're done. 
+   Furthermore, use the slice to print only the string, SpaceX Crew-3.
+
+   */
 
 package main
 
@@ -31,7 +37,7 @@ func main() {
 
 	//select data from the struck
 
-	fmt.Println(p[1].mission)
+	fmt.Println(p[2].mission)
 
 
 }

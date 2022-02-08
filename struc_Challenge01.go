@@ -1,5 +1,11 @@
 /* RZFeeser | Alta3 Research
-   CHALLEGE 01 - Create a struct named Astro */
+   CHALLEGE 01 - Create a struct named Astro
+
+Create a program that creates a struct called Astro. 
+It should track the name (string), age (int), lastmission (string),
+and if they are needed on the next mission, isneeded (bool). 
+Create 3 structs, and populate them with fictitious data. When you are done, print your records to the screen
+  */
 
 package main
 
