@@ -30,11 +30,11 @@ func main() {
     // no more "key", k2
     fmt.Println("map:", m)
 
-    // save only the optional second return value
-    // this second value can be used to determine if a key exists
-    // of if it is missing from the map
-    _, prs := m["k2"]
-    fmt.Println("prs:", prs)
+    // this operation actually returns TWO values: value, bool (where bool is if the key exists)
+    // The following operations says, "save only the second return value"
+    // We can use this second value can be used to determine if a key exists
+    _, prs := m["k2"]          // _ is the "blank identifier", it says, "don't bother assigning memory to this"
+    fmt.Println("prs:", prs)   // prs will be "false" as the key "k2" does not exist within the map
 
     // declare and initialize a map all one line
     n := map[string]int{"foo": 1, "bar": 2}
